@@ -1,0 +1,68 @@
+.main-content{
+    height: 100vh;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.form-input:hover{
+  border-color: red;
+}
+
+.top{
+  
+    margin: auto;
+    width: 100%;
+    padding: 60px 60px 20px 60px;
+    text-align: center;
+    font-size: 4em;
+    
+}
+.form-cont{
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 550px;
+  }
+  
+  .cont{
+      display: grid;
+      grid-template-columns: 1.2fr 1.2fr;
+      gap: 1.5rem;
+  
+  }
+  .box-cont{
+    height: 100px;
+    text-align: center;
+   
+  }
+  .form-input{
+    border: 2px solid transparent;
+    width: 100%;  
+    background-size: 300% 100%;
+    background: 
+    linear-gradient(rgb(255, 254, 254) 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, rgb(37, 170, 225), rgb(4, 190, 254), rgb(63, 134, 237)) border-box;
+    border-radius: 10px;
+    padding: 5px;
+  
+}
+.btn-dec{
+    width: 250px;
+      font-size: 16px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      margin: 20px;
+      height: 55px;
+      text-align: center;
+      border: none;
+      background-size: 300% 100%;
+      border-radius: 50px;
+      transition: all 0.4s ease-in-out 0s;
+      outline: none;
+      background-image: linear-gradient(to right, rgb(37, 170, 225), rgb(68, 129, 235), rgb(4, 190, 254), rgb(63, 134, 237));
+      box-shadow: rgb(65 132 234 / 75%) 0px 4px 15px 0px;
+      text-transform: uppercase;
+  }

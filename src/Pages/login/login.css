@@ -1,0 +1,28 @@
+.center{
+    height: 100vh;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.topic{
+    margin: auto;
+    width: 100%;
+    padding: 60px;
+    text-align: center;
+    font-size: 4em;
+}
+
+.login-container{
+    margin: auto;
+    max-width: 500px;
+    background-color: rgba(202, 202, 202, 0.2);
+
+}
+.pass-forget{
+    color: rgb(66, 66, 190);
+    margin-left: 1em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+
+}
